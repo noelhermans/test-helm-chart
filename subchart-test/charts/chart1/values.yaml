@@ -1,0 +1,14 @@
+replicaCount: 2
+registryLocation: "registry.digitalocean.com/allrest-container-registry"
+chart: "chart1-ok"
+
+# Service Specific Values
+allrest_services:
+  allrest-php:
+      name: allrest-php
+      imagename: allrest
+      repo: registry.digitalocean.com/tstrreg
+      imagePullSecrets: tstrreg
+      versionTag: "latest"
+      port: 80
+      ingressUrl: "www.allrestaurants.eu"

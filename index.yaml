@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  allrest-chart1:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-06-03T10:45:05.739646+02:00"
+    description: A Helm chart for Kubernetes chart 1
+    digest: a7ff875b4fc2522883f3422a281765de72f1609693830c9ddd4e15db2957c0fc
+    name: allrest-chart1
+    type: application
+    - https://github.com/noelhermans/test-helm-chart/subchart-test/charts/allrest-chart1-0.1.0.tgz
+    version: 0.1.0
+  allrest-chart2:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-06-03T10:45:05.739875+02:00"
+    description: A Helm chart for Kubernetes
+    digest: a7fc014ad783997a7fb843f9d36a001ac5f517b6aa64073b8b9a5d5fb7a1f6f0
+    name: allrest-chart2
+    type: application
+    urls:
+    - https://github.com/noelhermans/test-helm-chart/subchart-test/charts/allrest-chart2-0.1.1.tgz
+    version: 0.1.1
+generated: "2023-06-03T10:45:05.739221+02:00"

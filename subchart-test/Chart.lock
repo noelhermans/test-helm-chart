@@ -1,0 +1,6 @@
+dependencies:
+- name: chart1
+  repository: ""
+  version: 0.1.0
+digest: sha256:dec16b485b8e1c66fcf305798f7722f288c7120f6516f7deeb7d4a6b37275d35
+generated: "2023-06-02T22:28:28.204203+02:00"
