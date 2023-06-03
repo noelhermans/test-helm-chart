@@ -9,7 +9,7 @@ entries:
     name: allrest-chart1
     type: application
     urls:
-    - https://github.com/noelhermans/test-helm-chart/charts/allrest-chart1-0.1.0.tgz
+    - https://noelhermans.github.io/test-helm-chart/charts/allrest-chart1-0.1.0.tgz
     version: 0.1.0
   allrest-chart2:
   - apiVersion: v2
@@ -20,6 +20,6 @@ entries:
     name: allrest-chart2
     type: application
     urls:
-    - https://github.com/noelhermans/test-helm-chart/charts/allrest-chart2-0.1.1.tgz
+    - https://noelhermans.github.io/test-helm-chart/charts/allrest-chart2-0.1.1.tgz
     version: 0.1.1
 generated: "2023-06-03T10:59:11.64909+02:00"
